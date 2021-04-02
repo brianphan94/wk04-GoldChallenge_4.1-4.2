@@ -16,8 +16,30 @@
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 //* **************************************************
 
+
+class Polygon {
+    constructor(num) {
+        this.num = num;
+    }
+
+    perimeter() {
+        let arr = []
+        if (this.num == undefined) {
+            return arr
+        } else { 
+            const reducer = (accumulator, currentValue) => accumulator + currentValue;
+            return (this.num.reduce(reducer));
+        }
+
+    }
+}
+
+
+
 // Create a polygon with side lengths 3, 3, 8, and 8
 
-
+let newPolygon = new Polygon([3, 3, 8, 8]);
   
 // Print the perimeter
+
+console.log(newPolygon.perimeter());
