@@ -35,7 +35,6 @@ class Polygon {
 }
 
 
-
 // Create a polygon with side lengths 3, 3, 8, and 8
 
 let newPolygon = new Polygon([3, 3, 8, 8]);

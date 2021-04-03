@@ -10,15 +10,12 @@
 //NOTE: Write your code below and push back to your github branch.  SUBMIT YOUR GITHUB URL IN CANVAS
 
 let shoppingList = [[ 'eggs', 'milk', 'butter' ], [ 'cleaner', 'trash bags', 'detergent' ], [ 'thank you card', 'pens', 'gift wrapping' ], [ 'shoes', 't-shirt', 'slacks' ]];
-let grocery = [...shoppingList[0]]
-let cleaning = [...shoppingList[1]]
-let gifts = [...shoppingList[2]]
-let clothing = [...shoppingList[3]]
-console.log(grocery);
-console.log(cleaning);
-console.log(gifts);
-console.log(clothing);
 
+const [grocery, cleaning, gifts, clothing] = shoppingList
+console.log(grocery)
+console.log(cleaning)
+console.log(gifts)
+console.log(clothing)
 
 let obj = {
 cleaning: [],
@@ -26,3 +23,4 @@ gifts: [],
 clothing: [],
 grocery: []
 };
+console.log(obj);
